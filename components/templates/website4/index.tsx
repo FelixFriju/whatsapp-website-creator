@@ -1,0 +1,13 @@
+export { default, Website4 } from "./Template";
+export { Home } from "./Home";
+export { About } from "./About";
+export { Products } from "./Products";
+export { Contact } from "./Contact";
+export { Header } from "./Header";
+export { Footer } from "./Footer";
+export { ProductGrid } from "./ProductGrid";
+export { ProductModal } from "./ProductModal";
+export { withTemplateProducts } from "./data";
+export type { Product, WebsiteData } from "./data";
+export type { NavItem } from "./links";
+export { navItems, pageHref, normalizePhone, whatsappLink, telLink, mailtoLink } from "./links";
